@@ -1,0 +1,382 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>techMO</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section class="panel panel-left panel-cover">
+            <div class="list media-list no-hairlines-between no-hairlines">
+              <ul>
+                <li>
+                  <a href="/profile/" class="item-link item-content panel-close">
+                    <div class="item-media"><span class="material-icons">person</span></div>
+                    <div class="item-inner">
+                      <div class="item-title">Profile</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="/about/" class="item-link item-content panel-close">
+                    <div class="item-media"><span class="material-icons">groups</span></div>
+                    <div class="item-inner">
+                      <div class="item-title">About us</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media"><span class="material-icons">visibility</span></div>
+                    <div class="item-inner">
+                      <div class="item-title">Privacy</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media"><span class="material-icons">notifications</span></div>
+                    <div class="item-inner">
+                      <div class="item-title">Notifications</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media"><span class="material-icons">help</span></div>
+                    <div class="item-inner">
+                      <div class="item-title">Help</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="/profile/" class="link">
+							<span class="material-icons">account_circle</span>
+						</a>
+					</div>
+				  	<div class="title">tech<span class="theme-color">MO</span></div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  <div class="block">
+					<div class="searchbar searchbar-inline">
+						<div class="searchbar-input-wrap">
+							<input type="search" placeholder="Search">
+							<i class="searchbar-icon"></i>
+							<span class="input-clear-button"></span>
+						</div>
+					</div>
+				  </div>
+				  <div class="block block-acces">
+					  <div class="row">
+						  <article class="col-10"><a href="#" class="link"><h2 class="acces-all">All</h2></a></article>
+						  <article class="col-20"><a href="#" class="link"><h2 class="acces-phones">Phones</h2></a></article>
+						  <article class="col-30"><a href="#" class="link"><h2 class="acces-accesories">Accesories</h2></a></article>
+						  <article class="col-20"><a href="#" class="link"><h2 class="acces-tablets">Tablets</h2></a></article>
+						  <article class="col-10"><a href="/categories/" class="link"><h2 class="acces-more">More...</h2></a></article>
+					  </div>
+				  </div>
+				  <h2 class="title-onsale">On Sale</h2>
+				  <div class="block" id="onsale-home">
+					<div class="swiper-container swiper-init" data-slides-per-view="1" data-pagination='{"el": ".swiper-pagination"}'>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+							  <div class="card">
+								  <div class="card-content">
+									  <div class="row">
+										<article class="col-40">
+											<img src="img/iphonex.png" alt="" class="img-fluid img-onsale">
+										</article>
+										<article class="col-60">
+											<h4 class="nombre">iPhone X</h4>
+											<p class="shortinfo">Apple smartphone with OLED display and Face ID.</p>
+											<p class="precio">$ 399.00</p>
+										</article>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+							<div class="swiper-slide">
+							  <div class="card">
+								  <div class="card-content">
+									  <div class="row">
+										<article class="col-40">
+											<img src="img/iphonexsmax.png" alt="" class="img-fluid img-onsale">
+										</article>
+										<article class="col-60">
+											<h4 class="nombre">iPhone XS Max</h4>
+											<p class="shortinfo">iPhone with large screen and advanced dual camera.</p>
+											<p class="precio">$ 599.00</p>
+										</article>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+							<div class="swiper-slide">
+							  <div class="card">
+								  <div class="card-content">
+									  <div class="row">
+										<article class="col-40">
+											<img src="img/iphone11.png" alt="" class="img-fluid img-onsale">
+										</article>
+										<article class="col-60">
+											<h4 class="nombre">iPhone 11</h4>
+											<p class="shortinfo">Apple smartphone with dual camera and A13 chip.</p>
+											<p class="precio">$ 499.00</p>
+										</article>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+							<div class="swiper-slide">
+							  <div class="card">
+								  <div class="card-content">
+									  <div class="row">
+										<article class="col-40">
+											<img src="img/iphone12.png" alt="" class="img-fluid img-onsale">
+										</article>
+										<article class="col-60">
+											<h4 class="nombre">iPhone 12</h4>
+											<p class="shortinfo">Apple smartphone with Super Retina XDR display.</p>
+											<p class="precio">$ 699.00</p>
+										</article>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+							<div class="swiper-slide">
+							  <div class="card">
+								  <div class="card-content">
+									  <div class="row">
+										<article class="col-40">
+											<img src="img/iphone12max.png" alt="" class="img-fluid img-onsale">
+										</article>
+										<article class="col-60">
+											<h4 class="nombre">iPhone 12 Max</h4>
+											<p class="shortinfo">Larger version of iPhone 12 with 5G and Bionic chip.</p>
+											<p class="precio">$ 799.00</p>
+										</article>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+						</div>
+					<div class="swiper-pagination"></div>
+					</div>
+				  </div>
+				 
+				  <h2 class="title-products">Popular Products</h2>
+				  <div class="block" id="products-home">
+					 
+					 <div class="swiper-container swiper-init" data-slides-per-view="2" data-pagination='{"el": ".swiper-pagination"}'>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/speakers_havit.png" alt="" class="img-fluid">
+									<h4 class="nombre">Speaker <br> Havit</h4>
+									<p class="shortinfo">Portable speaker with high-quality sound.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 50.00</p>
+									</div>
+							  </div>
+							</div>
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/laptop_hp.png" alt="" class="img-fluid">
+									<h4 class="nombre">Laptop <br> HP</h4>
+									<p class="shortinfo">Versatile and powerful HP laptop for daily use.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 650.00</p>
+									</div>
+							  </div>
+							</div>
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/tv-lg.png" alt="" class="img-fluid">
+									<h4 class="nombre">Television <br> LG</h4>
+									<p class="shortinfo">LG TV with LED screen and 4K resolution.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 800.00</p>
+									</div>
+							  </div>
+							</div>
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/samsung_smartwatch.png" alt="" class="img-fluid">
+									<h4 class="nombre">SmartWatch Samsung</h4>
+									<p class="shortinfo">Smartwatch with health and fitness tracking.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 250.00</p>
+									</div>
+							  </div>
+							</div><div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/nintendo_switch.png" alt="" class="img-fluid">
+									<h4 class="nombre">Nintendo <br> Switch</h4>
+									<p class="shortinfo">Hybrid gaming console from Nintendo.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 299.00</p>
+									</div>
+							  </div>
+							</div>
+						</div>
+					<div class="swiper-pagination"></div>
+					</div> 
+					  
+					 <div class="swiper-container swiper-init" data-slides-per-view="2" data-pagination='{"el": ".swiper-pagination"}'>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/apple_watch.png" alt="" class="img-fluid">
+									<h4 class="nombre">Apple <br> Watch</h4>
+									<p class="shortinfo">Smartwatch with multiple health features.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 399.00</p>
+									</div>
+							  </div>
+							</div>
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/play5.png" alt="" class="img-fluid">
+									<h4 class="nombre">Play Station <br> 5</h4>
+									<p class="shortinfo">The new and next-generation for any gaming console.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 499.00</p>
+									</div>
+							  </div>
+							</div>
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/lenovo_legion.png" alt="" class="img-fluid">
+									<h4 class="nombre">Laptop Lenovo Legion</h4>
+									<p class="shortinfo">Powerful gaming laptop with great performance.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 1200.00</p>
+									</div>
+							  </div>
+							</div>
+							<div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/speaker_jbl.png" alt="" class="img-fluid">
+									<h4 class="nombre">Speaker <br> JBL</h4>
+									<p class="shortinfo">Portable speaker with stereo sound and waterproof.</p>
+								  </div>
+								  	<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 100.00</p>
+									</div>
+							  </div>
+							</div><div class="swiper-slide">	   
+							  <div class="card">
+								  <div class="card-content">
+									<img src="img/laptop_dell.png" alt="" class="img-fluid">
+									<h4 class="nombre">Laptop <br> Dell</h4>
+									<p class="shortinfo">Dell laptop ideal for work and entertainment.</p>
+								  </div>
+									<div class="card-footer">
+										<span class="material-icons theme-color">stars</span>
+										<p class="precio">$ 700.00</p>
+									</div>
+							  </div>
+							</div>
+						</div>
+					<div class="swiper-pagination"></div>
+					</div>   
+					  
+					 
+					  
+					  
+				  </div>
+				  
+				  
+				  
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+			
+			<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
+				<div class="toolbar-inner">
+				
+					<a href="/home/" class="tab-link">
+						<span class="material-icons tolbar-color">home_filled</span>
+					</a>
+					<a href="#" class="tab-link">
+						<span class="material-icons tolbar-color">notifications</span>
+					</a>
+					<a href="#" class="tab-link">
+						<span class="material-icons tolbar-color">shopping_cart</span>
+					</a>
+					<a href="#" class="tab-link">
+						<span class="material-icons tolbar-color">local_mall</span>
+					</a>
+				</div>
+			</nav>
+			
+		</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>

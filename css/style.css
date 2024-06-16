@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--f7-theme-color: #fc4334;
+	--f7-navbar-bg-color: #273238; /*navbar*/
+	--f7-navbar-link-color: #fff; /*navbar link*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent;
+}
+
+body{
+	font-family: "Montserrat", "DM Sans", sans-serif;
+}
+
+.title{
+	font-family: "Montserrat";
+	color: #fff;
+	font-weight: 900 !important;
+}
+
+.theme-color{
+	color: var(--f7-theme-color);
+}
+
+.bg-color{
+	color: var(--f7-navbar-bg-color);
+}
+
+.tolbar-color{
+	color: #d5dce0;
+	font-size: 36px;
+}
+
+.panel.panel-left{
+	background-color: var(--f7-navbar-bg-color);
+}
+
+.panel .list .item-link{
+	color: #fff;
+}
+
+.panel .list ul{
+	background-color: transparent;
+}
+
+.navbar .title{
+	margin: auto;
+}
+
+.navbar .right{
+	margin-left: 0 !important;
+}
+
+.title-onsale{
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin: 5% 71% 5% 5%;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+#onsale-home .card{
+	background-color: #dde4e8;
+	padding: 0 5%;
+	border-radius: 40px;
+	box-shadow: none;
+}
+
+#onsale-home .nombre{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+#onsale-home .precio{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#onsale-home .shortinfo{
+	color: #989fa3;
+	margin-top: 3px;
+}
+
+.title-products{
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin: 5% 45% 5% 5%;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);
+}
+
+#products-home .card{
+	background-color: #dde4e8;
+	padding: 5% 3%;
+	border-radius: 10px;
+	box-shadow: none;
+}
+
+#products-home .nombre{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#products-home .precio{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#products-home .shortinfo{
+	color: #989fa3;
+	text-align: center;
+}
+
+.page-title{
+	text-align: center;
+	font-weight: 700;
+}
+
+.block-profile{
+	background-color: #dde4e8;
+	padding: 5% 5%;
+	border-radius: 40px;
+	margin: 0 5%;
+}
+
+.img-user{
+	border-radius: 100%;
+	border: 7px solid var(--f7-navbar-bg-color);
+	margin-left: 16%;
+}
+
+.name-user{
+	text-align: center;
+	font-size: 23px;
+	font-weight: 300;
+	margin-bottom: 7px;
+}
+
+.id-user{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+.img-onsale{
+	margin-top: 21%;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.swiper-pagination{
+	position: relative!important;
+}
+
+#page-profile .list ul{
+	background: transparent;
+}
+
+.block-acces{
+	margin: 0 10% 0 0;
+}
+
+.acces-all{
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);	
+}
+
+.acces-phones{
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);	
+}
+
+.acces-accesories{
+	color: #fff;
+	text-align: center;	
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);	
+}
+
+.acces-tablets{
+	color: #fff;
+	text-align: center;	
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);	
+}
+
+.acces-more{
+	color: #fff;
+	text-align: center;	
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);	
+}
+
+.title-categories{
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin: 5% 49% 5% 5%;
+	border-radius: 50px;
+	background-color: var(--f7-theme-color);
+}
+
+.block-payments{
+	margin: 0 5%;
+}
+
+.block-payments2{
+	margin: 0 5%;
+	margin-top: 15%;
+}
+
+#page-payments h5{
+	margin: 0;
+	margin-top: 10px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+#page-payments .block-payments2 h5{
+	margin: 0;
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+#page-payments h6{
+	margin: 0;
+	margin-top: 3px;
+	font-weight: 300;
+	font-size: 13px;
+	color: var(--f7-theme-color);
+}
+
+.payments-dots{
+	margin-top: 20px;
+	font-weight: bolder;
+}
+
+.payments-add{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	padding: 20% 32%;
+	margin-top: 25px;
+	border-radius: 25px;
+}
+
+.card1{
+	background-color: #0066b2;
+	width: 60px;
+	padding: 20%;
+	border-radius: 15px;
+}
+
+.card2{
+	background-color: #212427;
+	width: 60px;
+	padding: 20%;
+	border-radius: 15px;
+}
+
+.card3{
+	background-color: #ffb21c;
+	width: 60px;
+	padding: 20%;
+	border-radius: 15px;
+}
+
+.card4{
+	background-color: #156ac4;
+	width: 60px;
+	padding: 20%;
+	border-radius: 15px;
+}
+
+.card5{
+	background-color: #253b80;
+	width: 60px;
+	padding: 20%;
+	border-radius: 15px;
+}
+
+.btn-payments{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	padding: 7% 0;
+	border-radius: 20px;
+	background-color: var(--f7-theme-color);
+}
+
+.profile-card {
+    background-color: #dde4e8;
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-card img {
+    border-radius: 50%;
+	border: 7px solid var(--f7-navbar-bg-color);
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.profile-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.profile-card h4 {
+    margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.profile-card p {
+    color: #555;
+	text-align: start;
+}
+
+
+.category1{
+	padding: 25% 5%;
+	background-image: url("../img/phones.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category2{
+	padding: 25% 5%;
+	background-image: url("../img/tablets.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category3{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/computers.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category4{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/watches.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category5{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/spekers.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category6{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/headphones.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category7{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/tvs.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category8{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/gaming.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category9{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/chargers.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category10{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/cameras.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category11{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/accesories.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+.category12{
+	padding: 25% 5%;
+	margin-top: 25px;
+	background-image: url("../img/giftcard.png");
+	background-position: center;
+	background-size: cover;
+	background-color: hsla(0,0%,0%,0.75);
+	background-blend-mode: multiply;
+	border-radius: 40px;
+}
+
+#page-categories h4{
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	font-size: 16px;
+}
