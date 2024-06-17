@@ -9,6 +9,9 @@
 	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
 	--f7-block-margin-vertical:20px;
 	--f7-card-footer-border-color:transparent;
+	--f7-tabbar-link-inactive-color: #d5dce0;
+	--f7-tabbar-link-active-color: #fc4334;
+
 }
 
 body{
@@ -30,8 +33,11 @@ body{
 }
 
 .tolbar-color{
-	color: #d5dce0;
 	font-size: 36px;
+}
+
+.tab-link-active{
+	color: var(--f7-navbar-bg-color);
 }
 
 .panel.panel-left{
@@ -574,4 +580,38 @@ body{
 .star-white{
 	color: #fff;
 	font-size: 14px;
+}
+
+#page-cart .card{
+	background-color: #dde4e8;
+	padding: 0 5%;
+	border-radius: 40px;
+	box-shadow: none;
+}
+
+#page-cart .nombre{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+#page-cart .precio{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#page-cart .shortinfo{
+	color: #989fa3;
+	margin-top: 3px;
+}
+
+.footer-cart{
+	padding: 0;
+}
+
+.dots-cart{
+	background-color: #fff;
+	border-radius: 100%;
 }

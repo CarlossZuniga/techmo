@@ -56,6 +56,11 @@ var app = new Framework7({
     	url: 'productps5.html',
     	name: 'productps5',
   		},
+		{
+		path: '/cart/',
+    	url: 'cart.html',
+    	name: 'cart',
+  		},
 		
 	],
 	dialog: {
