@@ -332,6 +332,17 @@ body{
 	background-color: var(--f7-theme-color);
 }
 
+.btn-product{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	padding: 7% 0;
+	margin: 5% 25%;
+	border-radius: 20px;
+	background-color: var(--f7-theme-color);
+}
+
 .profile-card {
     background-color: #dde4e8;
     border-radius: 40px;
@@ -500,4 +511,67 @@ body{
 	font-weight: 600;
 	text-align: center;
 	font-size: 16px;
+}
+
+.prod_id{
+	margin-top: 5px;
+	color: #b9bec2;
+	opacity: 80%;
+}
+.prod_price{
+	font-size: 18px;
+	font-weight: 800;
+	color: var(--f7-theme-color);
+}
+
+.prod_name{
+	font-size: 18px;
+	font-weight: 800;
+	margin-bottom: 0;
+	color: #000;
+}
+
+.center{
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 0;
+}
+
+.block-product{
+	margin: 0 5%;
+}
+
+.card-cant{
+	border: 1px solid #000;
+	margin: 0 25%;
+}
+
+.down_product{
+	font-size: 18px;
+	font-weight: 800;
+	margin-bottom: 0;
+	margin-top: 20%!important;
+	color: #000;
+}
+
+.card-reviews{
+	padding: 2% 5%;
+	border-radius: 30px;
+	background-color: #dde4e8;
+}
+
+.user_review{
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.star-gold{
+	color: #FFDA31;
+	font-size: 14px;
+}
+
+.star-white{
+	color: #fff;
+	font-size: 14px;
 }

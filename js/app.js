@@ -41,6 +41,21 @@ var app = new Framework7({
     	url: 'about.html',
     	name: 'about',
   		},
+		{
+		path: '/productxsmax/',
+    	url: 'productxsmax.html',
+    	name: 'productxsmax',
+  		},
+		{
+		path: '/productspeakerhavit/',
+    	url: 'productspeakerhavit.html',
+    	name: 'productspeakerhavit',
+  		},
+		{
+		path: '/productps5/',
+    	url: 'productps5.html',
+    	name: 'productps5',
+  		},
 		
 	],
 	dialog: {
